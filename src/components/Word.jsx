@@ -4,7 +4,6 @@ import Modal from "./modal";
 
 export default function Game(props) {
   const { word, setWord } = props;
-  console.log(word);
 
   const arr = new Array(word.length).fill("_ ");
 
